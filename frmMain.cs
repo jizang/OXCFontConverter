@@ -72,7 +72,7 @@ namespace OXCFontConverter
 
                 cmbFont.Items.Add(font.Name);
 
-                if (font.Name == fontConfig?.DefaultFontBig) //A default 12x12 pixel font
+                if (font.Name == fontConfig?.GlyphTiles[0]?.DefaultFontName) //A default 12x12 pixel font
                     selectedIndex = cmbFont.Items.Count - 1;
             }
 

@@ -18,7 +18,5 @@ namespace OXCFontConverter
         /// 允許使用的字型
         /// </summary>
         public string[] AllowedFontFamily;
-        public string DefaultFontBig { get; set; }
-        public string DefaultFontSmall { get; set; }
     }
 }
