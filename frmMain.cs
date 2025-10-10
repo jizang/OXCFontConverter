@@ -156,11 +156,11 @@ namespace OXCFontConverter
             switch (glyphTile.Name)
             {
                 case SizeType.FontBig:
-                case SizeType.FontGeoBig:
                     viewer.ZoomFactor = 2.0f;
                     break;
 
                 case SizeType.FontSmall:
+                case SizeType.FontGeoBig:
                 case SizeType.FontGeoSmall:
                     viewer.ZoomFactor = 4.0f;
                     break;

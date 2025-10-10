@@ -26,17 +26,6 @@
     },
     {
       "Name": "FontGeoBig",
-      "DefaultFontName": "Fusion Pixel 12px M zh_hant",
-      "Size": {
-        "Width": 16,
-        "Height": 16,
-        "FontPixel": 12
-      },
-      "OffsetX": -1,
-      "OffsetY": 0
-    },
-    {
-      "Name": "FontGeoSmall",
       "DefaultFontName": "Fusion Pixel 8px M zh_hant",
       "Size": {
         "Width": 8,
@@ -44,10 +33,22 @@
         "FontPixel": 8
       },
       "OffsetX": 0,
-      "OffsetY": -1
+      "OffsetY": 1
+    },
+    {
+      "Name": "FontGeoSmall",
+      "DefaultFontName": "Chill Bitmap 7px",
+      "Size": {
+        "Width": 8,
+        "Height": 7,
+        "FontPixel": 8
+      },
+      "OffsetX": -1,
+      "OffsetY": 0
     }
   ],
   "AllowedFontFamily": [
+    "Chill Bitmap 7px",
     "Fusion Pixel 8px M zh_hant",
     "Fusion Pixel 12px M zh_hant",
     "Zpix",

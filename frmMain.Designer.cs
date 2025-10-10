@@ -95,10 +95,10 @@
             // 
             // grpboxXY
             // 
+            this.grpboxXY.Controls.Add(this.numOffsetX);
+            this.grpboxXY.Controls.Add(this.label2);
             this.grpboxXY.Controls.Add(this.label4);
             this.grpboxXY.Controls.Add(this.numOffsetY);
-            this.grpboxXY.Controls.Add(this.label2);
-            this.grpboxXY.Controls.Add(this.numOffsetX);
             this.grpboxXY.Location = new System.Drawing.Point(318, 3);
             this.grpboxXY.Name = "grpboxXY";
             this.grpboxXY.Size = new System.Drawing.Size(141, 86);

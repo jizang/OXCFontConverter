@@ -114,9 +114,8 @@ namespace OXCFontConverter
                 SizeF size = g.MeasureString(c.ToString(), resourceFont);
                 int actualWidth = (int)Math.Ceiling(size.Width);
                 int actualHeight = (int)Math.Ceiling(size.Height);
-                int boxSize = Math.Min(imgWidth, imgHeight);
 
-                Bitmap cropped = new Bitmap(boxSize, boxSize);
+                Bitmap cropped = new Bitmap(imgWidth, imgHeight);
 
                 using (Graphics g2 = Graphics.FromImage(cropped))
                 {
